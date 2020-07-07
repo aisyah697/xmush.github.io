@@ -1,0 +1,15 @@
+img {
+    width: 200px;
+}
+
+header {
+    top: 15px;
+    left: 160px;
+    width: 914px;
+    height: 59px;
+    /* justify-content: space-between; */
+}
+
+.navbar-nav {
+    /* justify-content: space-between; */
+}

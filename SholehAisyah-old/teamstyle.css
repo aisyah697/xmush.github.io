@@ -1,0 +1,405 @@
+/* file for ss */
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,600i,700,900|Roboto:400,700,900&display=swap');
+
+header{
+    padding:10px 0px 10px 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    z-index: 99999;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-size: 17px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+nav {
+    /* display: inline; */
+    text-align: right;
+    margin-left: auto;
+
+}
+nav a {
+    text-decoration: none;
+    color: #19345E;
+}
+nav a:hover, .active {
+    text-decoration: none;
+    color: #F47522;
+}
+#logo {
+    width: 120px;
+    height: 59px;
+}
+ul li {
+    display: inline-block;
+    margin-left: 30px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;  
+    font-size: 15px;
+}
+
+.contact {
+    padding: 5px 10px 5px 10px; 
+    border: solid 2px #F47522;
+    border-radius: 18px;
+    color: #F47522;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.contact:hover, a .active{
+    padding: 5px 10px 5px 10px; 
+    border: solid 2px #F47522;
+    background-color: #F47522;
+    border-radius: 18px;
+    color: #FFFFFF !important; 
+}
+
+a .contact .active {
+    border: solid 2px #F47522;
+    background-color: #F47522;
+    color: #FFFFFF !important;
+}
+
+.c-middle {
+    position: flex;
+    align-items: center;
+}
+.bg-cblue {
+    background-color: #EDF6FF;
+}
+.c-orange {
+    color: #F47522;
+}
+.c-h1 {
+    font-size: 45px;
+}
+.c-h3 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+}
+.c-h1-orange {
+    font-size: 45px;
+    letter-spacing: 0.1em;
+}
+.home-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.img-section {
+    width: 80%;
+}
+
+.btn-about-team {
+    border-radius: 20px;
+    padding: 10px 50px 10px 65px;
+    display: inline;
+    border: solid 1px #F47522;
+    background-color: #FFFFFF;
+    color: #F47522;
+    position: relative;
+
+    -webkit-box-shadow: 0px 8px 7px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 7px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 8px 7px -6px rgba(0,0,0,0.75);
+}
+
+.btn-about-team:hover {
+    border-radius: 20px;
+    padding: 10px 50px 10px 65px;
+    display: inline;
+    border: solid 2px #F47522;
+    color: white;
+    background-color: #F47522;  
+}
+
+.btn-about-team:before {
+    width: 1.5em;
+    content: " ";
+    background-image: url('../img/sport-team-hover.png');
+    background-size: 1.5em;
+    position: absolute;
+    
+    /* display: inline-block; */
+    left: 38px;
+    height: 1.5em;
+}
+
+.btn-about-team:hover::before {
+    width: 1.5em;
+    content: " ";
+    background-image: url('../img/sport-team.png');
+    background-size: 1.5em;
+    position: absolute;
+    left: 38px;
+    /* display: inline-block; */
+    height: 1.5em;
+}
+
+.home-section a:hover {
+    text-decoration: none;
+}
+
+
+.bottom-banner {
+    margin: 0px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    -webkit-box-shadow: 0px 13px 17px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 13px 17px -18px rgba(0,0,0,0.75);
+    box-shadow: 0px 13px 17px -18px rgba(0,0,0,0.75);
+}
+.round-div {
+    background-color: #F47522;
+    padding: 5px;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.border-div-mid {
+    border-left: solid 1px rgb(114, 114, 114);
+    border-right: solid 1px rgb(114, 114, 114);
+}
+
+.round-div img {
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    background-color: #19345E;
+    padding: 20px;
+}
+
+.alta-logo img {
+    width: 40%;
+}
+
+.alta-sosmed {
+    color: white;
+    text-align: center;
+}
+
+.alta-sosmed img {
+    width: 10%;
+    margin: 5px;
+}
+
+.alta-copyright {
+    margin: auto;
+    color: white;
+    text-align: right;
+}
+
+.alta-copyright strong {
+    font-size: 15px;
+}
+
+.head-section {
+    font-weight: bold;
+    color: #19345E;
+}
+
+.head-section:before {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #F47522;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.head-section:after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #F47522;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.header_section b {
+    font-family: 'Muli', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    color: #19345E;
+}
+
+.about-body {
+    background-image: url('../img/bg-people@2x.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba(25, 52, 94, 0.7)
+}
+
+.img-pict img {
+    width: 70%;
+    /* margin-bottom: 20px; */
+}
+.img-pict-mid img {
+    width: 70%;
+    /* margin-bottom: 20px; */
+}
+.img-pict {
+    position: relative;
+    align-items: center;
+}
+.img-pict-mid {
+    position: relative;
+}
+
+.img-pict:before {
+    content: "";
+    width: 70%;
+    height: 100%;
+    /* right: -50px; */
+    margin-left: -15px;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0);
+    border: #F47522 10px solid;
+    position: absolute;
+    display: block;
+}
+
+.img-pict-mid:before {
+    content: "";
+    width: 70%;
+    height: 100%;
+    /* right: -50px; */
+    margin-left: -15px;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0);
+    border: #19345E 10px solid;
+    position: absolute;
+    display: block;
+}
+
+
+/* BLOG SECTION */
+.blog-section {
+    font-weight: bold;
+    color: #19345E;
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0;
+    opacity: 1;
+    margin: 30px 140px;
+}
+
+.blog-body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.img-blog {
+    position: relative;
+}
+
+.larry-blog {
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #19345E;
+    opacity: 1;
+    margin: 32px 160px 51px 160px;
+}
+
+.blog-p {
+    margin: 30px 160px;
+    font-size: 15px;
+    color: #19345E;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+/* TEAM SECTION */
+
+
+.team-section {
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0;
+    color: #19345E;
+    opacity: 1;
+    margin-left: 161px;
+    margin-top: 80px;
+}
+
+.img-team {
+    width: 320px;
+    height: 399px;
+}
+
+.resume {
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700px;
+    font-size: 25px;
+    letter-spacing: 0;
+    color: #19345E;
+    opacity: 1;
+}
+
+.bold-huruf {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700px;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #19345E;
+    opacity: 1;
+}
+
+.p-bio {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #19345E;
+    opacity: 1;
+}
+
+.bio-team {
+    margin-top: 100px;
+}
+
+.img-calendar {
+    width: 14px;
+    height: 14px;
+}
+
+.resume-year {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    letter-spacing: 0;
+    color: #19345E;
+    opacity: 1;
+}

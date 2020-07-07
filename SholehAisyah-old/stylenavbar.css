@@ -1,0 +1,42 @@
+/* BAGIAN NAVBAR */
+
+/* oke */
+#logo {
+    top: 15px;
+    left: 160px;
+    width: 120px;
+    height: 59px;
+}
+
+/* oke */
+.btn {
+    background-color: #F47522;
+    border-radius: 50px;
+    width: 130px;
+    border: 1px solid #F47522;
+    text-align: center;
+    font: Bold 15px/24px Muli;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #F47522;
+    border: 1px solid #F47522;
+}
+
+/* oke */
+.navbar-nav {
+    top: 36px;
+    height: 19px;
+    margin-right: 19px;
+}
+
+/* oke */
+.nav-link {
+    text-align: left;
+    font: Bold 15px/8px Muli;
+    letter-spacing: 0;
+    color: #19345E;
+    opacity: 1;
+    margin-right: 25px;
+}

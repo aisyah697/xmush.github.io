@@ -1,0 +1,574 @@
+/* file for css */
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700|Poppins:400,500,700,900|Roboto:400,700,900&display=swap');
+
+header{
+    padding:10px 0px 10px 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    z-index: 99999;
+    top : 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #19345E;
+}
+p {
+    font-size: 17px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+nav {
+    /* display: inline; */
+    text-align: right;
+    margin-left: auto;
+
+}
+nav a {
+    text-decoration: none;
+    color: #19345E;
+}
+nav a:hover, .active {
+    text-decoration: none;
+    color: #F47522;
+}
+#logo {
+    width: 120px;
+    height: 59px;
+}
+ul li {
+    display: inline-block;
+    margin-left: 30px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;  
+    font-size: 15px;
+}
+
+.contact {
+    padding: 5px 10px 5px 10px; 
+    border: solid 2px #F47522;
+    border-radius: 18px;
+    background-color: #F47522;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.contact:hover, a .active{
+    padding: 5px 10px 5px 10px; 
+    border: solid 2px #F47522;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    color: #f47522 !important; 
+}
+
+a .contact .active {
+    border: solid 2px #F47522;
+    background-color: #F47522;
+    color: #FFFFFF !important;
+}
+
+.c-middle {
+    position: flex;
+    align-items: center;
+}
+.bg-cblue {
+    background-color: #EDF6FF;
+}
+.c-orange {
+    color: #F47522;
+}
+.c-blue {
+    color: #19345E;
+}
+.c-h1 {
+    font-size: 45px;
+}
+.c-h3 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+}
+.c-h1-orange {
+    font-size: 45px;
+    letter-spacing: 0.1em;
+}
+.home-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.img-section {
+    width: 80%;
+}
+
+.btn-about-team {
+    border-radius: 20px;
+    padding: 10px 50px 10px 65px;
+    display: inline;
+    border: solid 1px #f47522;
+    color: #FFFFFF;
+    background-color: #F47522;
+    position: relative;
+
+    -webkit-box-shadow: 0px 8px 7px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 7px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 8px 7px -6px rgba(0,0,0,0.75);
+}
+
+.btn-about-team:hover {
+    border-radius: 20px;
+    padding: 10px 50px 10px 65px;
+    display: inline;
+    border: solid 2px #F47522;
+    background-color: white;
+    color: #F47522;  
+}
+
+.btn-about-team:before {
+    width: 1.5em;
+    content: " ";
+    background-image: url('img/sport-team.png');
+    background-size: 1.5em;
+    position: absolute;
+    
+    /* display: inline-block; */
+    left: 38px;
+    height: 1.5em;
+}
+
+.btn-about-team:hover::before {
+    width: 1.5em;
+    content: " ";
+    background-image: url('img/sport-team-hover.png');
+    background-size: 1.5em;
+    position: absolute;
+    left: 38px;
+    /* display: inline-block; */
+    height: 1.5em;
+}
+
+.home-section a:hover {
+    text-decoration: none;
+}
+
+
+.bottom-banner {
+    margin: 0px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    -webkit-box-shadow: 0px 13px 17px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 13px 17px -18px rgba(0,0,0,0.75);
+    box-shadow: 0px 13px 17px -18px rgba(0,0,0,0.75);
+}
+.round-div {
+    background-color: #F47522;
+    padding: 5px;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.border-div-mid {
+    border-left: solid 1px rgb(114, 114, 114);
+    border-right: solid 1px rgb(114, 114, 114);
+}
+
+.round-div img {
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    background-color: #19345E;
+    padding: 20px;
+}
+
+.alta-logo img {
+    width: 40%;
+}
+
+.alta-sosmed {
+    color: white;
+    text-align: center;
+}
+
+.alta-sosmed img {
+    width: 10%;
+    margin: 5px;
+}
+
+.alta-copyright {
+    margin: auto;
+    color: white;
+    text-align: right;
+}
+
+.alta-copyright strong {
+    font-size: 15px;
+}
+
+.head-section {
+    font-weight: bold;
+    color: #19345E;
+}
+
+.head-section:before {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #F47522;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.head-section:after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #F47522;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.header_section b {
+    font-family: 'Muli', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    color: #19345E;
+}
+
+.about-body {
+    background-image: url('img/bg-people@2x.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba(25, 52, 94, 0.7)
+}
+
+.team-prof img {
+    width: 100%;
+}
+
+.off-border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: #F47522 solid 10px;
+    top: 10%;
+    right: 10%;
+}
+
+.off-border:hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: #19345E solid 10px;
+    top: 10%;
+    right: 10%;
+
+}
+
+/* css blog by aisyah */
+.first-section {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.blog-section {
+    font-weight: bold;
+    color: #19345E;
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    opacity: 1;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.blog-body {
+    background-image: url('img/img_blog.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    width: 100%;
+}
+
+.img-blog {
+    position: relative;
+}
+
+.larry-blog {
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #19345E;
+    opacity: 1;
+    margin-bottom: 20px;
+    /* margin: 32px 160px 51px 160px; */
+}
+
+.blog-p {
+    font-size: 15px;
+    color: #19345E;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 2;
+    opacity: 1;
+}
+
+/* Css Contact by Aisyah */
+.img-contact {
+    width: 15px;
+    height: 15px;
+}
+
+.img-soc-ctc {
+    width: 25px;
+    height: 25px;
+}
+
+.contact-info {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #19345E;
+    opacity: 1;
+}
+
+.p-contact {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0, 1em;
+    color: #19345E;
+    opacity: 1;
+    margin-bottom: 0px;
+}
+
+.form-group {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #19345E;
+    opacity: 1;
+}
+
+.form-control {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form-control:hover {
+    border: 1px solid #F47522;
+}
+
+.form-control-message {
+    width: 584px;
+    height: 180px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form-control-message:hover {
+    border: 1px solid #F47522;
+}
+
+.btn-form-group {
+    margin: 50px 0 50px 0;
+    border: solid 1px #F47522;
+    background-color: #F47522;
+    display: inline-block;
+    padding: 10px 40px 10px 60px;
+    border-radius: 25px;
+    color: white;
+}
+
+.btn-form-group:before {
+    content: '';
+    height: 1.3em;
+    width: 1.3em;
+    left: 50px;
+    background-image: url('../img/send-mail.png');
+    background-repeat: no-repeat;
+    background-size: 1.3em;
+    display: inline-block;
+    position: absolute;
+}
+
+.btn-form-group:hover::before {
+    content: '';
+    height: 1.3em;
+    width: 1.3em;    
+    background-image: url('../img/send-mail-hover.png');
+    background-repeat: no-repeat;
+    background-size: 1.3em;
+    position: absolute;
+}
+
+.btn-form-group:hover {
+    background-color: #FFFFFF;
+    color: #F47522;
+    border: #F47522 solid 1px;
+}
+
+/* Css contact end  */
+
+.team-profil:hover {
+    /* -webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; */
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transform-origin:  bottom;
+    /* transform: scale(2) */
+    
+}
+
+ .team-profil:hover  .team_img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.team-profil:hover  .team_name {
+    color: #F47522;
+}
+
+.team-profil:hover  .team_job {
+    color: #19345E;
+}
+
+.team_name {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #19345E;
+}
+.team_job {
+    font-size: 15px;
+    font-family: 'Popins', sans-serif;
+    font-weight: normal;
+    color: #F47522;
+}
+
+.next_team {
+    font-size: 16px;
+}
+
+.next_team img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.check a, .check h4 {
+    text-decoration: none;
+    display: inline-block;
+}
+.check a :hover {
+    text-decoration: none;
+    color: #F47522;
+}
+
+.article-box img {
+    width: 100%;
+}
+
+.article-box p {
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    color: #19345E;
+}
+
+.info-blog {
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-last-article {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #19345E;
+}
+
+.read-more {
+    text-decoration: underline;
+}
+
+.read-more:hover {
+    color: #F47522;
+}
+
+/* style by aisyah page team */
+
+.box-img-team img {
+    width: 100%;
+}
+
+
+.team-job-title {
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #19345E;
+    opacity: 1;
+    margin-bottom: 1em;
+}
+
+.p-bio {
+    /* margin-top: 30px; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 2.5em;
+    color: #19345E;
+}
+
+.title-team {
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #19345E;
+    opacity: 1;
+    margin-left: 1em;
+}
+
+.tahun img {
+    height: 1em;
+    margin-bottom: 0.3em;
+}
+
+.tahun b {
+    margin-right: 1em;
+    margin-left: 2em;
+}
+
+.lembaga {
+    margin-left: 4em;
+}
